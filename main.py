@@ -1,7 +1,7 @@
 import os
 import argparse
 from model import train,test
-import data_builder
+from data import data_builder
 parser=argparse.ArgumentParser()
 parser.add_argument("--train_path",help="Path to the training dataset",default='./data')
 parser.add_argument("--val_path",help="Path to the validation dataset",default='None')
