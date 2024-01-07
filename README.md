@@ -22,11 +22,11 @@ python main.py \
 --epochs 20
 ```
 4. After training, you can test the model using:
-   ```
-   python main.py \
-   --train_path ./path to data directory \
-   --mode test \
-
+```
+python main.py \
+--train_path ./path to data directory \
+--mode test \
+```
 
    
 This implementation features a GUI which you can upload images into. The output will be relayed via text as well as speech. 
