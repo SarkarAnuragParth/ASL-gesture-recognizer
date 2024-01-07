@@ -13,7 +13,7 @@ language = 'en'
 root = tk.Tk()
 x=0
 root.title("Image Viewer")
-mod=load_model(r'ASL-recognizer.h5')
+mod=load_model('./checkpoints/ASl_Classifier')
 # Create a function to open a file dialog and get the file path
 def open_file():
     file_path = filedialog.askopenfilename(title="Select Image",
